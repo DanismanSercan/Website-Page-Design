@@ -4,8 +4,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
 .main-header{
-    background-color: #f5f28f;
+    background-color: #35424A;
     border-bottom: 3px solid #874C8E;
     display: flex;
     flex-wrap: wrap;
@@ -14,16 +17,16 @@
     height: 4rem;
 }
 .main-header div h2{
-    color:#ac55d8c8
+    color: #874C8E;
 }
 .main-header h2{
     padding: 0 1rem 0 1rem;
 }
 .white{
-    color: rgb(237, 152, 152);
+    color: white;
 }
 .links{
-    font-size: 0.8rem;
+    font-size: .8rem;
 }
 .links a{
     text-decoration: none;
@@ -34,6 +37,7 @@
     font-weight: 700;
     color: #874C8E;
 }
+
 
 .main-img{
     background-image: url(./img/showcase.jpg);
@@ -49,13 +53,14 @@
     font-size: 3rem;
     padding-bottom: 2rem;
 } 
+
+
 .sub{
-    background-color:  #35424A  ;
+    background-color: #35424A;
     height: 4rem;
     display: flex;
     justify-content: space-between;
-    align-items:center;
-
+    align-items: center;
 }
 .sub h3{
     padding: 0 0 0 1rem;
@@ -71,14 +76,15 @@
     border: none;
 }
 .sub-button{
-    background-color:  #E8491D;
+    background-color: #E8491D;
     border: none;
     color: white;
     height: 1.7rem;
     padding: 0 .5rem 0 .5rem;
-    font-size: 0.7rem;
+    font-size: .7rem;
     cursor: pointer;
 }
+
 
 .content{
     display: flex;
@@ -97,20 +103,28 @@
     padding-bottom: 2rem;
     opacity: .5;
     transition: all .5s ease;
-   
 }
 .info:hover{
     font-size: 1.3rem;
     opacity: 1;
 }
+
+
+
 footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
     background-color: #35424A;
     position: relative;
-
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    font-weight: 300;
 }
+
+
 .other-footer{
     display: flex;
     justify-content: space-around;
@@ -122,4 +136,32 @@ footer{
     width: 100%;
     height: 6rem;
     font-weight: 300;
+}
+
+.about-main{
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+.about-first-section{
+    flex:63% ;
+    font-weight: 300;
+}
+.second-p{
+    background-color: #35424A;
+    padding: 1rem;
+    color: white;
+}
+.about-second-section{
+    background-color: #35424A;
+    color: white;
+    padding: 2rem 1rem;
+    font-weight: 300;
+    flex: 33%;
+}
+.bold{
+    font-weight: 800;
+}
+.about-main p{
+    margin-top: 1rem;
 }
