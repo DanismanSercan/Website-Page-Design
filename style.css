@@ -165,3 +165,62 @@ footer{
 .about-main p{
     margin-top: 1rem;
 }
+.services-main{
+    display:flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+.services-section-first{
+    flex: 65%;
+}
+.services-section-first section{
+    background-color: #e6e6e682;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.section-design:hover{
+    background-color: #e6e6e6;
+}
+.section-maintenance:hover{
+    background-color: #e6e6e6;
+}
+.section-hosting:hover{
+    background-color: #e6e6e6;
+}
+.services-section-second{
+    flex: 35%;
+    background-color: #35424A;
+    color: white;
+    padding:  2rem 2rem 1rem 1rem;
+}
+.services-section-second label{
+    display: block;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+
+}
+.services-submit{
+    width: 100px;
+    padding-top: 0.5rem;
+
+}
+.services-submit input{
+    background-color: #E8491D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.services-section-second input{
+    outline: none;
+    /* outline: #4CAF50 solid 1px; */
+    width: 100%;
+    height: 30px;
+    padding:0.6rem;
+}
+textarea{
+    resize: vertical;
+    width: 100%;
+    outline: none;
+    padding: 0.6rem;
+}
